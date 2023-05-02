@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 public class CustomViewHolder extends RecyclerView.ViewHolder {
     public TextView text_title;
     public TextView text_source;
-    ImageView img_headline;
-    CardView cardView;
+    public ImageView img_headline;
+    public CardView cardView;
 
 
     public CustomViewHolder(@NonNull View itemView) {
